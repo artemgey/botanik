@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #475F45;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+
+}
+
+.header {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo__text {
+    padding-left: 10px;
+}
+
+
+.nav__list {
+    display: flex;
+
+}
+
+.nav__item {
+    display: flex;
+
+
+    line-height: 27px;
+    font-weight: 600, ;
+    font-size: 18px;
+    margin-right: 40px;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__item--border {
+    border: 1px solid #475F45;
+    width: 169px;
+    height: 46px;
+    padding-left: 35px;
+}
+
+.hero__content {
+    display: flex;
+}
+
+.hero__info {
+    padding-top: 222px;
+}
+
+.hero__img-wrap {
+    padding: 6px;
+    border: 4px solid rgba(52, 61, 51, 0.4);
+    box-sizing: border-box;
+    border-radius: 500px 500px 0px 0px;
+    overflow: hidden;
+}
+
+.hero__img {
+    box-sizing: border-box;
+    border-radius: 500px 500px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
