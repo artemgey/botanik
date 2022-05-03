@@ -239,12 +239,6 @@ nav {
     overflow: hidden;
 }
 
-.news {}
-
-
-.news__subtitle {}
-
-.news__link {}
 
 .news__content {
     display: flex;
@@ -336,4 +330,15 @@ margin-left: 50px;
     .news__content {
         flex-direction: column;
     }
+}
+.footer__container{
+    display: flex;
+}
+.footer__top{
+    background-color: #414840;
+}
+.footer__column{
+    display: flex;
+ flex-direction: column;
+    padding: 10px;
 }
